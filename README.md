@@ -7,3 +7,5 @@ I used a Bayesian Hyperparameter Tuner to find the best parameters, i also used 
 
 I also followed the recommended procedure when handling imbalanced data which requires splitting my data to a testing and training set before scaling and then further 
 processing
+
+In the hyperparameter tuning python file i'll also like to note that in the 5th cell, inside my BayesSearchCV function, change the assignment of the **n_iter** variable from 1 to 30 for better results, it should be noted that this can slow down your system, make it overheat or have effects on your system that are similar to that which is being overworked
